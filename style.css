@@ -1,0 +1,166 @@
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Manrope"),
+    url(./fonts/Manrope-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Manrope;
+  font-style:  normal;
+  font-weight: 500;
+  src: local("Manrope"),
+    url(./fonts/Manrope-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Manrope"),
+    url(./fonts/Manrope-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Manrope"),
+    url(./fonts/Manrope-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Manrope"),
+    url(./fonts/Manrope-ExtraBold.ttf) format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Manrope, sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* header  */
+
+.header {
+  margin: 0 auto;
+  height: 866px;
+  background: url(./img/Background.png) no-repeat center;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 0 165px;
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__logo {
+  margin-right: 32px;
+}
+
+.header__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header__item {
+  list-style-type: none;
+  margin-right: 32px;
+}
+
+.header__link {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: 'liga' off;
+  color: #18191F;
+  text-decoration: none;
+}
+
+.hero {
+  height: 72px;
+  padding: 0 165px;
+  position: relative;
+  margin-top: 96px;
+}
+
+.hero__title {
+  width: 660px;
+  height: 196px;
+  margin: 32px 0 0 0;
+}
+
+.hero__title--text {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  font-feature-settings: 'liga' off;
+  color: #18191F;
+}
+
+.hero__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 196px;
+  height: 62px;
+  background: #8C30F5;
+  border-radius: 8px;
+  margin: 32px 0px;
+}
+
+.hero__button--link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  font-feature-settings: 'liga' off;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.hero__imgApp {
+  position: absolute;
+  top: -32px;
+  right: 88px;
+}
+
+/* main  */
+
+.main {
+  width: 100%;
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 165px;
+  margin: 0 auto;
+  height: 142px;
+}
+
+.clients__line {
+  height: 1px;
+  width: 1110px;
+  background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%) center;
+}
+
+.clients__logos {
+  display: flex;
+  justify-content: space-around;
+
+}
