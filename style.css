@@ -90,6 +90,19 @@ body {
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: rgb(200, 55, 55);
+}
+
+.header__link:hover path {
+  fill: rgb(200, 55, 55);
+}
+
+.header__right img:hover {
+  outline: 1px solid red;
+  cursor: pointer;
+}
+
 .header__burger {
   display: none;
   height: 50px;
@@ -178,6 +191,10 @@ body {
   background: #8C30F5;
   border-radius: 8px;
   margin: 32px 0px;
+}
+
+.hero__button:hover {
+  background: #803ad1dc;
 }
 
 .hero__button--link {
@@ -607,6 +624,14 @@ color: #8C30F5;
 margin: 0px 8px;
 }
 
+.started__link:hover a {
+  color: #9861d6ce;
+}
+
+.started__link:hover path {
+  fill: #9861d6ce;
+}
+
 .started__link svg {
   transform: translateX(-3px) translateY(5px);
 }
@@ -712,6 +737,11 @@ margin: 0px 8px;
   margin-right: 12px;
 }
 
+.download__left--buttons img:hover {
+  outline: 1px solid red;
+  cursor: pointer;
+}
+
 .download__right {
   position: relative;
   width: 496px;
@@ -763,6 +793,7 @@ margin: 0px 8px;
   list-style-type: none;
 }
 
+
 .footer__left--topLink a,
 .footer__left--botLink a {
   width: 59px;
@@ -773,6 +804,11 @@ margin: 0px 8px;
   font-feature-settings: 'liga' off;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.footer__left--topLink a:hover,
+.footer__left--botLink a:hover {
+  color: rgb(200, 55, 55);
 }
 
 .footer__left--topLink li:not(:last-child),
@@ -796,6 +832,11 @@ margin: 0px 8px;
   padding: 0px;
   /* width: 160px;
   height: 140px; */
+}
+
+.footer__right img:hover {
+  outline: 1px solid red;
+  cursor: pointer;
 }
 
 .footer__right span {
@@ -960,6 +1001,8 @@ margin: 0px 8px;
     margin-bottom: 20px;
   }
 
+  
+
   .download__right {
     display: none;
   }
@@ -1009,6 +1052,7 @@ margin: 0px 8px;
   .header__right {
     display: none;
   }
+
 
   .header__wrapper {
     justify-content: space-between;
