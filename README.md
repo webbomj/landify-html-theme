@@ -1,7 +1,7 @@
 ## landify-html-theme
  Учебный проект - верстка шаблона landify [Demo](https://webbomj.github.io/landify-html-theme/).
  
- ![image](./landify.png)
+ ![image](./landifyScr.png)
 
 ## Отработано
 1. Flex-box
